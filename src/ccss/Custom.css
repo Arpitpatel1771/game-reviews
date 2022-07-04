@@ -505,7 +505,7 @@ a:visited{
     height: 200px;
     border: 1px solid white;
     cursor: text;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .inputreview:focus {
@@ -550,7 +550,7 @@ a:visited{
 }
 
 .scorepicker:hover {
-    background-color: rgb(54, 54, 130);
+    background-color: rgb(48, 48, 120);
     color: rgb(219, 219, 219);
 }
 
