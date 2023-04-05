@@ -7,7 +7,7 @@
 
 # python & Django things
 venv
-migrationss
+migrations
 
 # testing
 /coverage
