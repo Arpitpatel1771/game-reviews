@@ -4,7 +4,11 @@
 /node_modules
 /.pnp
 .pnp.js
+
+# python & Django things
 venv
+migrationss
+
 # testing
 /coverage
 
