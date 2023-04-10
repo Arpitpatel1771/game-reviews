@@ -182,7 +182,7 @@ function App() {
 
     return (
         <div className="App">
-            <Navbar
+            {/* <Navbar
                 clickFunction={showAddPage}
                 gotohome={gotohome}
                 deletefun={deleteitem}
@@ -198,7 +198,7 @@ function App() {
                 ) : (
                     <></>
                 )}
-            </div>
+            </div> */}
         </div>
     );
 }
