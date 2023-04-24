@@ -67,6 +67,7 @@ export class Router {
                 if (component) {
                     event.preventDefault()
                     this.handleRouteComponent(component)
+                    window.history.pushState("", "", getPathFromURL(link.href))
                 }
             }
         })

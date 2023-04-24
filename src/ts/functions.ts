@@ -8,6 +8,12 @@ export function getDOMNodeFromString(domString: string){
     return document.body.firstChild as HTMLElement
 }
 
+export function getDOMStringFromNode(element: HTMLElement){
+    const parent = document.createElement("div")
+    parent.appendChild(element)
+    return parent.innerHTML
+}
+
 export function getWindowPath() {
     let path = window.location.pathname
     if (path.length > 1 && path[path.length-1] === "/") {

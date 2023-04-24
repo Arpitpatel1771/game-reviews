@@ -1,5 +1,6 @@
 export abstract class BaseComponent {
     abstract rootElement: HTMLElement
+    abstract domString: string
     abstract loadComponentInto(element: HTMLElement): void
 }
 
